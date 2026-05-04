@@ -1,7 +1,4 @@
-"""
-@author: Shubin Liu
-@contact: liushb7@gmail.com
-"""
+
 
 import os
 import numpy as np

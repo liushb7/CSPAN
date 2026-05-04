@@ -19,7 +19,7 @@ CUDA_VISIBLE_DEVICES=7 python main.py \
  --mass 0.9 \
  --k 1 \
  --topk 1 \
- --freq_aux_trade_off 0 \
+ --freq_aux_trade_off 0.5 \
  --freq_weight_lambda 0 \
  --time_weight_lambda 0 \
  --mix_lambda 1

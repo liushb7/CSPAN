@@ -1,7 +1,4 @@
-"""
-@author: Shubin Liu
-@contact: liushb7@gmail.com
-"""
+
 
 import torch
 from torch import nn
