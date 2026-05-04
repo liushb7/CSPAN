@@ -1,8 +1,3 @@
-"""
-@author: Shubin Liu
-@contact: liushb7@gmail.com
-"""
-
 def get_dataset_class(dataset_name):
     """Return the algorithm class with the given name."""
     if dataset_name not in globals():
