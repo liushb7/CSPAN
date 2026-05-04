@@ -1,7 +1,3 @@
-"""
-@author: Shubin Liu
-@contact: liushb7@gmail.com
-"""
 
 import torch
 import torch.nn as nn
