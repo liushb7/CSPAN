@@ -1,0 +1,27 @@
+ 
+CUDA_VISIBLE_DEVICES=6 python main.py \
+ --experiment_description OTDA \
+ --run_description HHAR_P \
+ --da_method OTDA \
+ --dataset HHAR_P \
+ --num_runs 5 \
+ --lr 0.001 \
+ --cls_trade_off 1 \
+ --ot_t_trade_off 0.5 \
+ --ot_f_trade_off 0.5 \
+ --stop_step 1200 \
+ --test_interval 5 \
+ --print_freq 1 \
+ --ot_type partial \
+ --eta1 0.01 \
+ --eta2 0.5 \
+ --epsilon 0.5 \
+ --tau 0.3 \
+ --mass 0.999 \
+ --k 1 \
+ --topk 1 \
+ --use_balanced_sampler 0 \
+ --freq_aux_trade_off 0 \
+ --freq_weight_lambda 0 \
+ --time_weight_lambda 0 \
+ --mix_lambda 0

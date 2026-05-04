@@ -1,0 +1,22 @@
+ 
+CUDA_VISIBLE_DEVICES=3 python main.py \
+ --experiment_description OTDA \
+ --run_description EMG \
+ --da_method OTDA \
+ --dataset EMG \
+ --num_runs 5 \
+ --lr 0.001 \
+ --cls_trade_off 1 \
+ --ot_t_trade_off 0.5 \
+ --ot_f_trade_off 0.5 \
+ --stop_step 1000 \
+ --test_interval 5 \
+ --print_freq 1 \
+ --ot_type partial \
+ --eta1 0.01 \
+ --eta2 0.5 \
+ --epsilon 0.5 \
+ --tau 0.3 \
+ --mass 0.7 \
+ --k 1 \
+ --topk 1 

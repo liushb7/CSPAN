@@ -1,0 +1,29 @@
+ 
+ CUDA_VISIBLE_DEVICES=6 python main.py \
+ --phase tsne \
+ --tsne_save_dir tsne_results/HHAR_P_5_to_1_run_0 \
+ --model_path logs/OTDA/HHAR_P/29_04_2026_15_54_16/res/5_to_1_run_0/model.pth \
+ --max_points_per_domain 100 \
+ --experiment_description OTDA \
+ --run_description HHAR_P \
+ --da_method OTDA \
+ --dataset HHAR_P \
+ --lr 0.001 \
+ --cls_trade_off 1 \
+ --ot_t_trade_off 0.5 \
+ --ot_f_trade_off 0.5 \
+ --stop_step 1200 \
+ --test_interval 5 \
+ --print_freq 1 \
+ --ot_type partial \
+ --eta1 0.01 \
+ --eta2 0.5 \
+ --epsilon 0.5 \
+ --tau 0.3 \
+ --mass 0.9 \
+ --k 1 \
+ --topk 1 \
+ --freq_aux_trade_off 0 \
+ --freq_weight_lambda 0 \
+ --time_weight_lambda 0 \
+ --mix_lambda 0
